@@ -8,3 +8,7 @@
  sails generate api <Name api> to generate api
  default sails using discs database 
  `blue print` allows us go to url and actually add data through there `cho phép create data tren url (/create?attribute1&...)`
+ - Sails.js uses Grunt task runner as the default task runner
+ using datastores and add this data into default object and in model add property datastore is datastore:'default'
+` adapter: 'sails-postgresql',`
+`url: 'postgresql://postgres:tien1991@localhost:5432/testdatabase',`
